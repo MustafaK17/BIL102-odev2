@@ -11,6 +11,10 @@ while True:
         sonuc=sayi/bolen
         print("Bölen:", bolen)
 
+    elif sayi < 0:
+        sayi=-sayi
+        sonuc=sayi
+
     elif sayi<10 and sayi!=0:
         sonuc=sayi**3
 
