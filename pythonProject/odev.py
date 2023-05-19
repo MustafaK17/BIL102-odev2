@@ -6,7 +6,7 @@ while True:
     if  100 > sayi > 10:
         sonuc=sayi**2
 
-    elif sayi >= 100:
+    elif 1000 >= sayi >= 100:
         bolen=random.randint(1,10)
         sonuc=sayi/bolen
         print("Bölen:", bolen)
@@ -14,6 +14,11 @@ while True:
     elif sayi < 0:
         sayi=-sayi
         sonuc=sayi
+
+    elif sayi > 1000:
+        bolen=random.randint(50,250)
+        sonuc=sayi/bolen
+        print("Bölen:", bolen)
 
     elif sayi<10 and sayi!=0:
         sonuc=sayi**3
