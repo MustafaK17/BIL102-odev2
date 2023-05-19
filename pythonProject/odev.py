@@ -26,7 +26,9 @@ while True:
             sonuc=sayi**3
 
         elif sayi==0:
+            print("Kapatılıyor...")
             quit()
+
 
         print("Sonuç:", sonuc)
 
